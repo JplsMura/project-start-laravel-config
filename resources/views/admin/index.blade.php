@@ -29,12 +29,12 @@
 
                 <label>
                     <span class="field icon-envelope">E-mail:</span>
-                    <input type="email" name="email" placeholder="Informe seu e-mail" required/>
+                    <input type="email" name="email" placeholder="Informe seu e-mail" required value="joao@hotmail.com"/>
                 </label>
 
                 <label>
                     <span class="field icon-unlock-alt">Senha:</span>
-                    <input type="password" name="password_check" placeholder="Informe sua senha"/>
+                    <input type="password" name="password_check" placeholder="Informe sua senha" required/>
                 </label>
 
                 <button class="gradient gradient-orange radius icon-sign-in">Entrar</button>
