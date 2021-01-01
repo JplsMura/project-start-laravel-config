@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/reset.css')) }}"/>
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/boot.css')) }}"/>
     <link rel="stylesheet" href="{{ url(mix('backend/assets/css/login.css')) }}"/>
-    <link rel="icon" type="image/png" href="{{ url('backend/assets/images/favicon.png') }}"/>
+    <link rel="icon" type="image/png" href="{{ url(asset('backend/assets/images/favicon.png')'') }}"/>
 
     <title>UpAdmin - Site Control</title>
 </head>
